@@ -23,12 +23,11 @@
 src/
   pages/
     repair/
-      index.tsx       # 页面逻辑与 JSX
+      index.tsx       # 页面逻辑与 TSX
       index.less      # 页面样式（覆盖 NutUI/布局细节）
       assets/         # 如有本地静态资源
   app.tsx / app.less  # 入口配置与全局样式
-tailwind.config.js    # Tailwind 配置（若使用）
-postcss.config.js     # PostCSS 管线（含 tailwindcss / autoprefixer）
+tailwind.config.js    # Tailwind 配置
 ```
 
 ## 🚀 快速开始
