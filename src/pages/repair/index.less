@@ -1,0 +1,31 @@
+.repair-page {                           /* 页面根容器 */
+  min-height: 100vh;                     /* 页面最小高度占满一屏视口高度，内容少时也撑满屏 */
+}
+
+.repair-card {                           /* 白色卡片容器 */
+  box-shadow: 0 16rpx 32rpx rgba(#2A2A2A,0.05); /* 柔和投影，提升层次感与悬浮感 */
+}
+
+.repair-uploader {                       /* 上传区域外层容器（下面是对 NutUI Uploader 的定制样式） */
+  .nut-uploader-upload.picture {         /* “图片预览模式”的上传框样式 */
+    width: 220rpx;                       /* 上传框宽度 */
+    height: 220rpx;                      /* 上传框高度（与宽相同，形成正方形） */
+    border-radius: 10rpx;                /* 圆角，使方块更柔和 */
+    background: #f7f5f3;               /* 浅色背景，区分于页面底色 */
+    box-shadow: none;                    /* 去掉组件可能自带的阴影 */
+  }
+
+  .nut-uploader-icon-tip {               /* 上传框下方的提示文字 */
+    display: none;                       /* 隐藏提示文本，不占位 */
+  }
+}
+.repair-card .nut-button {
+  width: 80%;
+  border-radius: 100rpx;
+  margin-left: auto;  
+  margin-right: auto;
+}
+.repair-card .nut-textarea__textarea {
+  height: 320rpx;         /* 高度*/
+  box-sizing: border-box; /* 高度包含内边距，避免被 padding 撑高 */
+}
