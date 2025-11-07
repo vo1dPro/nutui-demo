@@ -1,4 +1,5 @@
 # 健身器材报修页（Taro / React / NutUI）
+<img width="675" height="1017" alt="image" src="https://github.com/user-attachments/assets/44b7774a-ac22-4fa8-a2ac-38cdc7953e96" />
 
 一个用于提交健身器材报修的页面，支持照片上传（其实没上传）、问题描述与必填校验，适配小程序端（亦可扩展到 H5）。
 
